@@ -28,7 +28,7 @@ class UI {
             <br><br>
             <ul class="list-group">
                <li class="list-group-item">Company: ${check(user.company)}</li>
-               <li class="list-group-item">Website/Blog: ${check(user.blog)}</li>
+               <li class="list-group-item">Website/Blog: <a  href="${check(user.blog)}" target="_blank">${check(user.blog)}</a></li>
                <li class="list-group-item">Location: ${check(user.location)}</li>
                <li class="list-group-item">Member since: ${check(user.created_at)}</li>
             </ul>
